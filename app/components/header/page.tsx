@@ -58,7 +58,7 @@ function Header() {
                     className='p-[5px] gap-[10px] left-0'
                     ></Image>
 
-                    <Image src={'/image/Youtube.svg'}
+                    <Image src={'/image/youtube.svg'}
                     alt='Youtube icon'
                     width={26}
                     height={26}
