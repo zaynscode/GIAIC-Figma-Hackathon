@@ -5,7 +5,7 @@ function Container() {
   return (
     <div className='w-[1440px] h-[682px] flex'>
       <div className='w-[1439px] h-[682px] flex gap-[30px] absolute left-[70px]'>
-        <Image src={'/image/couple-img.svg'}
+        <Image src={'/image/Couple-img.svg'}
         alt='Couple Image'
         width={704}
         height={682}></Image>
