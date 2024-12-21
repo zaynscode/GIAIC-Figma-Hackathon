@@ -3,15 +3,21 @@ import Image from 'next/image'
 
 function FeaturedCard2() {
   return (
-      <div className='w-[328px] h-[606px] drop-shadow-[0px,2px,4px,0px] bg-transparent
-      shadow-black'>
+      <div className='w-[328px] h-[606px]'>
             {/* Second Image */}
             <div className='w-[348px] h-[300px] relative'>
                 <Image src={'/image/featured-post-2.svg'}
                 alt='Featured Post 2'
                 width={348}
                 height={300}
-                className='object-cover'></Image>
+                className='object-cover xs:hidden md:flex'></Image>
+                {/* mobile image 2 */}
+                 <Image src={'/image/featured-post-2-m.svg'}
+                 alt='Featured Post 2 for mobile'
+                 width={348}
+                 height={300}
+                 className='object-cover xs:flex md:hidden'></Image>
+                               
                <div className='w-[59px] h-6 absolute top-5 left-5 rounded-[3px] px-[10px] bg-[#E74040]'>
                 <h1 className='w-[38px] h-6 font-montserrat font-bold text-sm items-center
                 tracking-[0.2px] text-[#FFFFFF]'>NEW</h1>

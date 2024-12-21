@@ -4,11 +4,11 @@ import Image from 'next/image'
 function ImageSlider() {
   return (
     <div>
-        <div className='md:w-[1440px] md:h-[716px] xs:w-[414px] xs:h-[753px] absolute md:top-[136px] 
+        <div className='md:w-[1366px] md:h-[716px] xs:w-[414px] xs:h-[753px] absolute md:top-[136px] 
     xs:top-[550px] left-[1px] rounded-[5px] border-[1px] border-[#DEDEDE]'>
         <Image src={'/image/shop-slide-1.svg'}
         alt='Slider image'
-        width={1440}
+        width={1366}
         height={716}
         className='md:flex xs:hidden'>
         </Image>

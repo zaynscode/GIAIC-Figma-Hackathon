@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Navbar() {
   return (
     
-    <div className='xs:w-[414px] xs:h-[532px] md:w-full md:h-[58px] absolute md:top-[70px] md:left-[38px]
+    <div className='xs:w-[414px] xs:h-[532px] md:w-[1366px] md:h-[58px] absolute md:top-[70px] md:left-[38px]
      flex justify-between'>
     <div className='w-[187px] h-[58px] absolute left-[38px]'>
         <h1 className='text-[#252B42] w-[108px] absolute md:top-[13px] xs:top-[23px] md:left-0

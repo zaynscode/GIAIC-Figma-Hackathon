@@ -2,9 +2,10 @@ import React from 'react'
 
 function Footer2() {
   return (
-    <div className='w-[1440px]z h-[272px]  relative'>
-        <div className='w-[1050px] h-[270px] absolute left-[195px] py-[50px]'>
-            <div className='w-[1041px] h-[170px] flex gap-[30px] flex-row justify-between'>
+    <div className='md:w-[1366px] md:h-[272px] xs:w-[414px] xs:h-[1072px] relative '>
+        <div className='md:w-[1050px] md:h-[270px] xs:w-[321px] xs:h-[1071px] absolute md:left-[195px]
+         xs:left-[46px] md:py-[50px] xs:py-[70px]'>
+            <div className='md:w-[1041px] md:h-[170px] xs:w-[321px] xs:h-[931px] flex gap-[30px] md:flex-row xs:flex-col justify-between'>
                 {/* first row */}
                 <div className='w-[148px] h-[170px] flex gap-5 flex-col'>
                 <h1 className='w-[115px] h-6 font-montserrat font-bold text-base text-[#252B42]
@@ -99,9 +100,11 @@ function Footer2() {
                                     <h1 className='w-[72px] h-7 absolute top-[15px] left-[22.5px]
                                     font-montserrat font-normal text-sm leading-7 items-center
                                     tracking-[0.2px] text-[#FFFFFF]'>Subscribe</h1>
-
                                 </button>
                                 </div>
+                                <h1 className='w-[155px] h-7 relative top-[59px] left-[2px] font-normal
+                                font-montserrat text-[#737373] text-[12px] leading-[28px] 
+                                tracking-[0.2px]'>Lore imp sum dolor Amit</h1>
                             </div>
 
                         </div>

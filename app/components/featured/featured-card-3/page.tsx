@@ -11,7 +11,14 @@ function FeaturedCard3() {
                 alt='Featured Post 3'
                 width={348}
                 height={300}
-                className='object-cover'></Image>
+                className='object-cover xs:hidden md:flex'></Image>
+                {/* mobile image 1 */}
+                 <Image src={'/image/featured-post-3-m.svg'}
+                 alt='Featured Post 3 for mobile'
+                 width={348}
+                 height={300}
+                 className='object-cover xs:flex md:hidden'></Image>
+                               
                <div className='w-[59px] h-6 absolute top-5 left-5 rounded-[3px] px-[10px] bg-[#E74040]'>
                 <h1 className='w-[38px] h-6 font-montserrat font-bold text-sm items-center
                 tracking-[0.2px] text-[#FFFFFF]'>NEW</h1>

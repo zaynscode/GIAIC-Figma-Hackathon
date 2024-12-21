@@ -7,14 +7,14 @@ import ImageSlider from './Image-Slider/page'
 
 function Header() {
   return (
-    <div className='md:w-full xs:w-[414px] xs:h-[1284px] md:h-[852px]  '>
-        <div className='md:w-full md:h-[136px]  '>
-            <div className='bg-[#252B42] md:w-[1440px] md:h-[58px] xs:hidden md:flex '>
-                <div className='md:w-full md:h-[46px] absolute top-[9px] left-[2px] flex justify-between
+    <div className='md:w-[1366px] xs:w-[414px] xs:h-[1284px] md:h-[852px]  '>
+        <div className='md:w-[1366px] md:h-[136px]  '>
+            <div className='bg-[#252B42] md:w-[1366px] md:h-[58px] xs:hidden md:flex '>
+                <div className='md:w-[1260px] md:h-[46px] absolute top-[9px] left-[2] flex justify-between
                 px-6'>
-                <div className='w-full h-[46px]  justify-between
+                <div className='w-[1260px] h-[46px]  justify-between
                 px-6'>
-                <div className='w-full h-[46px] flex justify-between
+                <div className='w-[1260px] h-[46px] flex justify-between
                 px-6'>
                     {/* phone & mail */}
                     <div className='w-[415px] h-[46px] flex gap-[10px]'>
@@ -45,7 +45,7 @@ function Header() {
                             text-[#FFFFFF]'>Follow Us  and get a chance to win 80% off</h1>
                     </div>
                     {/* social media links */}
-                    <div className='w-[233px] h-[46px] p-[10px] flex gap-[10px] justify-self-end'>
+                    <div className='w-[233px] h-[46px] py-[10px] flex gap-[10px] justify-self-end'>
                         <h1 className='w-[83px] h-6 font-montserrat font-bold text-sm tracking-[0.2px]
                             text-[#FFFFFF] justify-items-end'>Follow Us  :</h1>
                             {/* social media icons */}
@@ -58,7 +58,7 @@ function Header() {
                     className='p-[5px] gap-[10px] left-0'
                     ></Image>
 
-                    <Image src={'/image/youtube.svg'}
+                    <Image src={'/image/Youtube.svg'}
                     alt='Youtube icon'
                     width={26}
                     height={26}
