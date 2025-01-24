@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function ImageSlider() {
   return (
     <div>
-        <div className='md:w-[1366px] md:h-[716px] xs:w-[414px] xs:h-[753px] absolute md:top-[136px] 
-    xs:top-[550px] left-[1px] rounded-[5px] border-[1px] border-[#DEDEDE]'>
+        <div className='md:w-[1349px] md:h-[716px] xs:w-[414px] xs:h-[753px] absolute md:top-[136px] 
+    xs:top-[550px] '>
         <Image src={'/image/shop-slide-1.svg'}
         alt='Slider image'
-        width={1366}
+        width={1349}
         height={716}
         className='md:flex xs:hidden'>
         </Image>
@@ -39,9 +40,12 @@ function ImageSlider() {
                       md:text-start relative xs:left-[55px] md:left-0'>We know how large objects will act, 
                     but things on a small scale.</h1>
                     <button className='w-[221px] h-[62px] bg-[#2DC071] rounded-[5px] py-[15px] 
-                      px-10 grid gap-[10px] relative xs:left-[70px] md:left-0'>
+                      px-10 grid gap-[10px] relative xs:left-[70px] md:left-0 duration-500 
+                      hover:bg-[#252B42]'>
+                        <Link href={'/product-list-page'}>
                         <h1 className='w-[141px] h-8 font-montserrat font-bold
                         text-2xl tracking-[0.1px] text-[#FFFFFF] text-center '>SHOP NOW</h1>
+                        </Link>
 
                     </button>
                     </div> 

@@ -7,17 +7,17 @@ import ImageSlider from './Image-Slider/page'
 
 function Header() {
   return (
-    <div className='md:w-[1366px] xs:w-[414px] xs:h-[1284px] md:h-[852px]  '>
-        <div className='md:w-[1366px] md:h-[136px]  '>
-            <div className='bg-[#252B42] md:w-[1366px] md:h-[58px] xs:hidden md:flex '>
+    <div className='md:w-[1348px] xs:w-[414px] xs:h-[1284px] md:h-[852px]  '>
+        <div className='md:w-[1343px] md:h-[136px]  '>
+            <div className='bg-[#252B42] md:w-[1349px] md:h-[58px] xs:hidden md:flex '>
                 <div className='md:w-[1260px] md:h-[46px] absolute top-[9px] left-[2] flex justify-between
                 px-6'>
-                <div className='w-[1260px] h-[46px]  justify-between
+                <div className='md:w-[1260px] md:h-[46px]  justify-between
                 px-6'>
-                <div className='w-[1260px] h-[46px] flex justify-between
+                <div className='md:w-[1260px] md:h-[46px] flex justify-between
                 px-6'>
                     {/* phone & mail */}
-                    <div className='w-[415px] h-[46px] flex gap-[10px]'>
+                    <div className='md:w-[415px] h-[46px] flex gap-[10px]'>
                     {/* phone */}
                         <div className='w-[145px] h-11 rounded-[5px] p-[10px] flex gap-[5px]'>
                             <Image src={'/image/phone-icon.svg'}
@@ -86,8 +86,8 @@ function Header() {
             </div>
 
         </div>
-        <Navbar/>
-        <ImageSlider/>
+          <Navbar/> 
+        <ImageSlider/>  
         
 
     </div>
@@ -95,3 +95,4 @@ function Header() {
 }
 
 export default Header
+

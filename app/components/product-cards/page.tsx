@@ -4,7 +4,7 @@ import ProductCol2 from './product-col-2/page'
 
 function ProductCards() {
   return (
-    <div className='md:w-[1366px] md:h-[1652px] xs:w-[414px] xs:h-[5510px] relative'>
+    <div className='md:w-[1300px] md:h-[1652px] xs:w-[414px] xs:h-[5510px] relative'>
         <div className='md:w-[1124px] md:h-[1652px] xs:w-[414px] xs:h-[5510px] absolute md:left-[195px]
         xs:left-[43px] grid md:gap-20 xs:gap-12 py-20 flex-col'>
                 <div className='md:w-[692px] md:h-[102px] xs:w-[330px] xs:h-[154px] md:items-center'>
@@ -20,7 +20,7 @@ function ProductCards() {
                     text-center tracking-[0.2px] text-[#737373]'>Problems trying to resolve the conflict between </h1>
                 </div>
                 <div className='relative top-[120px]'>
-                  <div className='xs:w-[328px] md:w-full xs:h-[5510px] absolute left-[43px] py-16 flex gap-20
+                  <div className='xs:w-[328px] md:w-full xs:h-[5510px] absolute  py-16 flex gap-20
                   flex-col'>
         <ProductCol1/>
         <ProductCol2/>

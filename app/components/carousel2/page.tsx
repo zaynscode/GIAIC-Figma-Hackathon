@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function Carousel2() {
   return (
-    <div className='md:w-[1366px] xs:w-[400px] xs:h-[1200px] md:h-[709px] rounded-[5px] border-[1px] 
+    <div className='md:w-[1349px] xs:w-[400px] xs:h-[1200px] md:h-[709px] rounded-[5px] border-[1px] 
     border-[#DEDEDE] bg-[#23856D]'>
-        <div className='md:w-[1266px] md:h-[709px] xs:w-[349px] xs:h-[1200px]'>
-            <div className='md:w-[1266px] md:h-[711px] xs:w-[348px] xs:h-[1200px] absolute 
+        <div className='md:w-[1036px] md:h-[711px] xs:w-[349px] xs:h-[1200px]'>
+            <div className='md:w-[1036px] md:h-[711px] xs:w-[348px] xs:h-[1200px] absolute 
             md:left-[209px] xs:left-16 md:px-0 py-28 flex gap-20'>
                 <div className='md:w-[1049px] md:h-[602px] xs:h-[1200px] absolute xs:top-14 md:top-0
                 flex gap-[30px] md:flex-row xs:flex-col '>
@@ -33,14 +33,17 @@ function Carousel2() {
                         </button>
                     </div>
                     </div>
+                    
+                    <div  className='xs:w-[416px] xs:h-[640px] md:h-[685px] md:w-[510px] relative xs:top-[43px]
+                    md:top-[22px] xs:right-28 md:flex md:left-[30px] bg-[#23856D]'>
 
                     <Image src={'/image/carousel2.svg'}
                     alt='Carousel Image'
                     width={443}
                     height={685}
-                    className='xs:w-[416px] xs:h-[640px] md:h-[685px] md:w-[443px] relative xs:top-[43px]
-                    md:top-[22px] xs:right-28 md:flex md:left-[30px]'></Image>    
+                   ></Image>    
 
+                    </div>
                 
             
                 </div>

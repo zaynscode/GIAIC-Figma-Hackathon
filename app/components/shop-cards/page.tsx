@@ -3,7 +3,7 @@ import ShopRow from './shop-rows/page'
 
 function ShopCards() {
   return (
-    <div className='md:w-[1366px] xs:w-[414px] xs:h-[1850px] md:h-[770px] bg-[#FAFAFA] '>
+    <div className='md:w-[1349px] xs:w-[414px] xs:h-[1850px] md:h-[770px] bg-[#FAFAFA] '>
         <div className='md:w-[1050px] md:h-[770px] xs:w-[333px] xs:h-[1850px] absolute md:left-[195px]
         xs:left-[40.5px] py-20 flex-col grid gap-12 '>
             <div className='md:w-[607px] md:h-[62px] xs:w-[333px] xs:h-[82px] '>

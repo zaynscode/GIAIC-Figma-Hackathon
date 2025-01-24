@@ -3,15 +3,18 @@ import Image from 'next/image'
 
 function Container() {
   return (
-    <div className='md:w-[1366px] md:h-[682px] xs:w-[414px] xs:h-[999px] relative xs:top-[120px] 
+    <div className='md:w-[1349px] md:h-[682px] xs:w-[414px] xs:h-[999px] relative xs:top-[120px] 
     md:top-0 flex'>
-      <div className='md:w-[1366px] md:h-[682px] xs:w-[414px] xs:h-[911.25px] flex md:gap-[30px] 
-     xs:gap-7 absolute md:left-[70px] xs:items-center md:items-start md:flex-row xs:flex-col-reverse'>
+      <div className='md:w-[1349px] md:h-[682px] xs:w-[414px] xs:h-[911.25px] flex md:gap-[30px] 
+     xs:gap-7 absolute md:left-[0px] xs:items-center md:items-start md:flex-row xs:flex-col-reverse'>
+
+        <div className='xs:w-[414px] md:w-[704px] xs:h-[407px] md:h-[682px] relative md:left-[50px]'>
         <Image src={'/image/Couple-img.svg'}
         alt='Couple Image'
-        width={704}
-        height={682}
-        className='xs:w-[414px] md:w-[704px] xs:h-[407px] md:h-[682px]'></Image>
+        width={632}
+        height={492}
+        className='md:w-[725px] md:h-[774px] absolute md:left-[36px] md:top-[-48px]'></Image>
+        </div>
         <div className='md:w-[573px] md:h-[326px] xs:w-[384.33px] xs:h-[476.15px] grid md:gap-[30px]
         xs:gap-[32.78] flex-col md:pl-[80px] md:pt-[180px] '>
           <h1 className='w-[122px] h-6 font-bold font-montserrat text-base tracking-[0.1px]

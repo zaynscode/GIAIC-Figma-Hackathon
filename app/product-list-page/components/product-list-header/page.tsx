@@ -5,12 +5,12 @@ import React from 'react'
 
 function ProductListHeader() {
   return (
-            <div className='w-full h-[58px]  bg-[#23856D] justify-between
-                p-3'>
-                <div className='w-[1128px] h-[46px] absolute top-[9px] left-[143px] flex justify-between
-                '>
+            <div className='w-[1343px] h-[58px]  bg-[#23856D] flex justify-center 
+                p-3 md:flex xs:hidden'>
+                <div className='w-[1300px] h-[46px] absolute top-[9px] left-[40px] flex justify-around
+                pl-[100px]'>
                     {/* phone & mail */}
-                    <div className='w-[415px] h-[46px] flex gap-[10px]'>
+                    <div className='w-[415px] h-[46px] flex gap-[10px] '>
                     {/* phone */}
                         <div className='w-[145px] h-11 rounded-[5px] p-[10px] flex gap-[5px]'>
                             <Image src={'/image/phone-icon.svg'}
