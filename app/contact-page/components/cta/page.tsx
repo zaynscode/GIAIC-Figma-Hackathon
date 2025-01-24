@@ -7,7 +7,7 @@ function Chat() {
             <div className='w-[607px] h-[188px] flex gap-9 relative left-[360px] '>
                 <div className='w-[272px] h-[188px] flex gap-4 flex-col'>
                     <h2 className='w-[239px] h-6 text-[#252B42] font-montserrat font-bold text-base
-                    tracking-[0.2px] text-center'>WE Can't WAIT TO MEET YOU</h2>
+                    tracking-[0.2px] text-center'>WE Can&#39,t WAIT TO MEET YOU</h2>
                     <h1 className='w-[272px] h-20 text-[#252B42] font-montserrat font-bold text-[58px]
                    leading-20 tracking-[0.2px] text-center relative left-[-20px]'>Let’s Talk</h1>
                    <button className='w-[186px] h-[52px] flex gap-[10px] rounded-[5px] py-[15px]
