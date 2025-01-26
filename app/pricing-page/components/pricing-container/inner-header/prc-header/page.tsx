@@ -3,18 +3,19 @@ import Link from 'next/link'
 import React from 'react'
 
 
-function ContactHeader() {
+function PrcHeader() {
   return (
-    <div className='md:w-[1340px] md:h-[882px] max-xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
-        <div className='md:w-[1280px] md:h-[91px] relative md:left-[60px] '>
-            <div className='md:w-[1280px] md:h-[91px]'>
+    <div className='md:w-[700px] md:h-[91px] max-xs:w-[414px] xs:h-[532px]
+     xs:bg-[#FAFAFA] md:bg-white'>
+        <div className='md:w-[700px] md:h-[91px] relative '>
+            <div className='md:w-[700px] md:h-[91px]'>
 
-            <div className='w-[187px] h-[58px] relative md:top-[31px] md:left-[120px] xs:top-[23px] 
-            xs:left-[35px]'>
+            <div className='w-[187px] h-[58px] relative md:top-[31px] xs:top-[23px] 
+            xs:left-[35px] md:left-0'>
                 <h1 className='w-[108px] h-[32px] relative top-[16px] font-montserrat font-bold
                  text-[#252B42] text-2xl tracking-[0.1px]'>Bandage</h1>
             </div>
-            <div className='md:w-[815px] md:h-[58px]  relative md:left-[364px] xs:w-[123px] xs:h-[270px]
+            <div className='md:w-[815px] md:h-[58px]  relative md:left-[234px] xs:w-[123px] xs:h-[270px]
             md:bottom-[20px] '>
                 <div className='md:w-[275px] md:h-6 xs:w-[123px] xs:h-[270px] relative md:top-[17px] flex
                 md:left-0 md:gap-[21px] xs:gap-[30px] xs:flex-col md:flex-row xs:top-[84px] xs:left-[70px]'>
@@ -74,4 +75,4 @@ function ContactHeader() {
   )
 }
 
-export default ContactHeader
+export default PrcHeader

@@ -33,7 +33,7 @@ function Navbar() {
                  </select>
                   </Link>
 
-            <Link href={'/about-page'}>
+            <Link href={'/about'}>
             <h1 className='w-[45px] h-6 font-montserrat font-bold text-sm leading-6 hover:text-[#23A6F0] duration-700
              tracking-[0.2px] text-[#737373] text-center xs:hidden md:flex'>About
             </h1>
