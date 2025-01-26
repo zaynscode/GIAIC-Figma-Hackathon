@@ -1,4 +1,4 @@
-import Clients from '@/app/product-list-page/components/product-clients/page'
+
 import React from 'react'
 import AboutLogos from './about-logos/page'
 

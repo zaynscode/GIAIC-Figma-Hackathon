@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import AboutContainer from './about-container/page'
 function AboutHeader(){
   return (
             <div className='md:w-[1340px] md:h-[91px] max-xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
