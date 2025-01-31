@@ -9,14 +9,14 @@ import Footer from '../components/footer/page'
 
 function About() {
   return (
-    <div className='md:w-[1342px] md:h-[3500px]'>
-        <ContactHeader/>
+    <div className='md:w-[1342px] md:h-[3500px] xs:h-[7552px] xs:w-[414px]'>
+         <ContactHeader/> 
         <AboutContainer/>
-        <Stats/>
+         <Stats/>
         <AboutTeam/>
-        <AboutClients/>
+         <AboutClients/>
         <AboutTestimonials/>
-        <Footer/>
+         <Footer/>  
         
     </div>
   )

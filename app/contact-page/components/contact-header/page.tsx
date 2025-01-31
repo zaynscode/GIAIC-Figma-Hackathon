@@ -5,19 +5,47 @@ import React from 'react'
 
 function ContactHeader() {
   return (
-    <div className='md:w-[1340px] md:h-[882px] max-xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
+    <div className='md:w-[1340px] md:h-[882px] xs:w-[470px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
+        {/* Search icon for mobile */}
+        <div className='relative'>
+            <Image src={'/image/search-icon.svg'}
+            alt='Search icon'
+            width={24}
+            height={24}
+            className='md:hidden xs:flex absolute top-10 left-[280px]'>
+            </Image>
+        </div>
+        {/* Cart icon for mobile */}
+        <div className='relative'>
+            <Image src={'/image/Cart2.svg'}
+            alt='Cart icon for mobile'
+            width={24}
+            height={24}
+            className='md:hidden xs:flex absolute top-10 left-[335px]'>
+            </Image>
+        </div>
+        {/* Menu icon for mobile */}
+        <div className='relative'>
+            <Image src={'/image/menu.svg'}
+            alt='Menu icon'
+            width={24}
+            height={24}
+            className='md:hidden xs:flex absolute top-[45px] left-[390px]'>
+            </Image>
+        </div>
         <div className='md:w-[1280px] md:h-[91px] relative md:left-[60px] '>
             <div className='md:w-[1280px] md:h-[91px]'>
 
             <div className='w-[187px] h-[58px] relative md:top-[31px] md:left-[120px] xs:top-[23px] 
-            xs:left-[35px]'>
+            xs:left-[35px] '>
                 <h1 className='w-[108px] h-[32px] relative top-[16px] font-montserrat font-bold
                  text-[#252B42] text-2xl tracking-[0.1px]'>Bandage</h1>
             </div>
             <div className='md:w-[815px] md:h-[58px]  relative md:left-[364px] xs:w-[123px] xs:h-[270px]
             md:bottom-[20px] '>
                 <div className='md:w-[275px] md:h-6 xs:w-[123px] xs:h-[270px] relative md:top-[17px] flex
-                md:left-0 md:gap-[21px] xs:gap-[30px] xs:flex-col md:flex-row xs:top-[84px] xs:left-[70px]'>
+                md:left-0 md:gap-[21px] xs:gap-[30px] xs:flex-col md:flex-row xs:top-[131px] xs:left-[159px]
+                '>
                     <Link href={'/'}>
                     <h1 className='md:w-[43px] md:h-6 xs:w-[93px] xs:h-[45px] font-montserrat md:font-bold
                     xs:font-normal text-[#737373] md:text-[14px] md:leading-6 xs:text-[30px] 
@@ -40,7 +68,7 @@ function ContactHeader() {
                     <h1 className='md:w-[58px] md:h-6 xs:w-[122px] xs:h-[45px] font-montserrat md:font-bold
                     xs:font-normal text-[#737373] md:text-[14px] xs:text-[30px] xs:leading-[45px]
                     md:leading-6 tracking-[0.2px] text-center hover:text-[#23A6F0] duration-500
-                    relative left-[-5px]'>Contact
+                    relative left-[-10px]'>Contact
                     </h1>
                     </Link>
 
@@ -69,6 +97,8 @@ function ContactHeader() {
             </div>
 
         </div>
+
+        
 
     </div>
   )

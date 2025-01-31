@@ -57,7 +57,7 @@ function Navbar() {
             tracking-[0.2px] text-[#737373] text-center hover:text-[#23A6F0] duration-700'>Contact</h1>
             </Link>
             
-            <Link href={'/team-page'}>
+            <Link href={'/team'}>
              <h1 className='w-11 h-6 font-montserrat font-bold text-sm leading-6
              tracking-[0.2px] text-[#737373] text-center hover:text-[#23A6F0] duration-700'>Team</h1>
              </Link>  

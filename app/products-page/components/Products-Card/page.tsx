@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-function ProductsCard() {
+function ProductsPageCard() {
   return (
     <div className='w-[1342px] h-[700px] py-12 bg-[#FAFAFA]'>
       
@@ -181,4 +181,4 @@ function ProductsCard() {
   )
 }
 
-export default ProductsCard
+export default ProductsPageCard
