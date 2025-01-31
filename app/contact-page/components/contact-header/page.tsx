@@ -5,7 +5,7 @@ import React from 'react'
 
 function ContactHeader() {
   return (
-    <div className='md:w-[1340px] md:h-[882px] xs:w-[470px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
+    <div className='md:w-[1340px] md:h-[882px] xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
         {/* Search icon for mobile */}
         <div className='relative'>
             <Image src={'/image/search-icon.svg'}

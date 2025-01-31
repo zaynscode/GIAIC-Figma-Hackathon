@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 function AboutHeader(){
   return (
-            <div className='md:w-[1340px] md:h-[91px] max-xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA] md:bg-white'>
+            <div className='md:w-[1340px] md:h-[91px] xs:w-[414px] xs:h-[532px] xs:bg-[#FAFAFA]
+             md:bg-white'>
                 <div className='md:w-[1280px] md:h-[91px] relative md:left-[60px] '>
                     <div className='md:w-[1280px] md:h-[91px]'>
         

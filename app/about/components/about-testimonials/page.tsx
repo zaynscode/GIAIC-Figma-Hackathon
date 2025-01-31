@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function AboutTestimonials() {
   return (
-    <div className='md:w-[1343px] md:h-[636px] w-[474px] h-[520px] relative md:top-0 top-[1250px] bg-[#2A7CC7] 
+    <div className='md:w-[1343px] md:h-[636px] w-[414px] h-[520px] relative md:top-0 top-[1250px] bg-[#2A7CC7] 
     flex-row'>
         <div className='md:w-[1050px] md:h-[636px] w-[414px] h-[388px] relative md:top-0 top-[60px] md:left-[195px]
          py-[30px] md:py-[112px] flex gap-9'>
