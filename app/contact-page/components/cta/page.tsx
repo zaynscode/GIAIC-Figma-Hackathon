@@ -2,7 +2,7 @@ import React from 'react'
 
 function Chat() {
   return (
-    <div className='md:w-[1342px] md:h-[348px] w-[414px] h-[440px] relative top-[1250px]'>
+    <div className='md:w-[1342px] md:h-[348px] w-[414px] h-[440px] relative top-[1250px] md:top-0'>
         <div className='md:w-[1050px] md:h-[348px] w-[321px] h-[440px] absolute md:left-[195px] left-[47px]
          md:py-20 py-28 flex gap-24'>
             <div className='md:w-[607px] md:h-[188px] w-[321px] h-[216px] flex gap-9 relative left-[50px]
