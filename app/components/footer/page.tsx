@@ -4,9 +4,9 @@ import Footer2 from './footer-2/page'
 
 function Footer() {
   return (
-    <div className='md:w-[1342px] md:h-[488px] xs:w-[414px] relative top-[1300px] md:top-0 xs:h-[1342px]
+    <div className='md:w-[1342px] md:h-[488px] relative top-[1200px] md:top-0 xs:h-[1002px]
      xs:flex-col'>
-        <div className='md:w-[1342px] h-[142px] xs:w-[414px] md:flex xs:flex-col relative bg-[#FAFAFA] '>
+        <div className='md:w-[1342px] h-[142px]  md:flex xs:flex-col relative bg-[#FAFAFA] '>
             <div className='md:w-[1050px]  md:h-[138px] absolute md:left-[195px] xs:left-[50px] py-[10px]  '>
                 <div className='md:w-[1049.5px] md:h-[58px] flex md:gap-[577.5px] xs:flex-col
                 md:flex-row relative md:top-[30px] '>

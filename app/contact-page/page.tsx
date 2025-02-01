@@ -12,7 +12,7 @@ function ContactPage() {
          <ContactContainer/>
         <ContactPage2/>
         <Chat/>
-        <Footer/> 
+        <Footer/>  
 
     </div>
   )
