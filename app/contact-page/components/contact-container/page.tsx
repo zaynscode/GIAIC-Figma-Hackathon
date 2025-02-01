@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 function ContactContainer() {
   return (
-    <div className='md:w-[1050px] md:h-[742px] w-[414px] h-[1080px] absolute top-[536px] py-20 left-[60px]
+    <div className='md:w-[1050px] md:h-[742px] h-[1080px] absolute top-[536px] py-20 left-[50px]
     md:top-[104px] md:left-[195px] md:py-[112px] flex gap-[41px] md:gap-20 '>
         <div className='md:w-[1044px] md:h-[518px] flex md:flex-row md:gap-[30px] md:justify-between flex-col'>
             <div className='md:w-[599px] md:h-[518px] w-[414px] h-[590px] flex flex-col gap-10 md:gap-[35px]'>
                 <h2 className='w-[108px] h-6 font-montserrat font-bold text-base tracking-[0.1px] 
-                relative left-[130px] md:left-0'>
+                relative left-[110px] md:left-0'>
                     CONTACT US</h2>
                 <h1 className='md:w-[378px] h-[160px] w-[351px] text-[#252B42] font-montserrat font-bold
                  text-[58px] leading-[80px] tracking-[0.2px] md:justify-self-start relative left-[-6px] 

@@ -5,7 +5,7 @@ function ContactPage2() {
   return (
     <div className='md:w-[1342px] md:h-[814px]  h-[1531px] relative bg-[#FAFAFA] md:bg-white 
     top-[1240px] md:top-0'>
-        <div className='md:w-[1050px] md:h-[841px] w-[330px] h-[1453px] relative left-[42px] top-[30px] md:left-[195px] py-[45px] md:py-28 flex gap-[65px] 
+        <div className='md:w-[1050px] md:h-[841px] w-[330px] h-[1453px] relative left-[27px] top-[30px] md:left-[195px] py-[45px] md:py-28 flex gap-[65px] 
         flex-col'>
             <div className='md:w-[633px] md:h-[114px] w-[310px] h-[184px] justify-self-center 
             relative left-[60px] md:left-[240px] flex gap-[10px] flex-col'>
