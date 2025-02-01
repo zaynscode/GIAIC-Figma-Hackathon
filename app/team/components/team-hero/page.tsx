@@ -72,10 +72,10 @@ function TeamHero() {
     </Image>
     {/* for mobile */}
     <Image src={'/image/team-hero-5-m.svg'}
-    alt='Hero Section fifth image for mobile'
+    alt='Hero Section fifth image for mobile '
     width={204}
     height={260}
-    className='xs:flex md:hidden absolute top-[1680px] left-[210px]'>
+    className='xs:flex md:hidden absolute top-[1680px] left-[210px] '>
     </Image>
 
 
