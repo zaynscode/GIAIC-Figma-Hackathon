@@ -7,12 +7,14 @@ import Footer from '../components/footer/page'
 
 function Team() {
   return (
-    <div>
+    <div className='md:w-[1343px] md:h-[3602px] h-[8048px]'>
         <TeamHeader/>
-        <TeamHero/>
-        <TeamMembers/>
-        <PrcCta/>
-        <Footer/>
+         <TeamHero/>
+        {/* <TeamMembers/>
+          <PrcCta/> 
+          <div className='relative top-[-670px] md:top-0'>
+         <Footer/>  
+            </div>  */}
     </div>
   )
 }
