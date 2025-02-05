@@ -5,8 +5,8 @@ import FeaturedCard3 from './featured-card-3/page'
 
 function FeaturedPage() {
   return (
-    <div className='md:w-[1300px] md:h-[1044px] xs:w-[414px] xs:h-[2302px] relative overflow-x-hidden'>
-        <div className='md:w-[1050px] md:h-[1044px] xs:w-[414px] xs:h-[2302px] absolute md:left-[195px]
+    <div className='md:w-[1300px] md:h-[1044px]  xs:h-[2302px] relative overflow-x-hidden'>
+        <div className='md:w-[1050px] md:h-[1044px] xs:h-[2302px] absolute md:left-[195px]
          py-28 flex-col flex gap-[80px]'>
             <div className='md:w-[692px] md:h-[134px] xs:w-[279px] xs:h-[184px] absolute md:left-[200px]
             xs:left-[50px] items-center flex gap-[10px] flex-col'>

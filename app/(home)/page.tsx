@@ -10,14 +10,16 @@ import Footer from '../components/footer/page'
 
 function Home() {
   return (
-    <div className='md:w-[1349px] w-[428px] h-[8272px] md:h-[6197px] '>
+    <div className=' '>
         <Header/>
-         <ShopCards/>
-        <ProductCards/>
-         <Carousel2/>
-        <Container/>
-        <FeaturedPage/>
-        <Footer/>   
+          <ShopCards/>
+         <ProductCards/>
+         <Carousel2/> 
+         <Container/>
+        <FeaturedPage/> 
+        <div className='relative top-[-1160px]'>
+         <Footer/>  
+        </div>
 
     </div>
   )

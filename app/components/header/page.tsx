@@ -7,9 +7,9 @@ import ImageSlider from './Image-Slider/page'
 
 function Header() {
   return (
-    <div className='md:w-[1348px] xs:w-[414px] xs:h-[1284px] md:h-[852px]  '>
+    <div className=' xs:h-[1284px] md:h-[852px]  '>
         <div className='md:w-[1343px] md:h-[136px]  '>
-            <div className='bg-[#252B42] md:w-[1349px] md:h-[58px] xs:hidden md:flex '>
+            <div className='bg-[#252B42]  md:h-[58px] xs:hidden md:flex '>
                 <div className='md:w-[1260px] md:h-[46px] absolute top-[9px] left-[2] flex justify-between
                 px-6'>
                 <div className='md:w-[1260px] md:h-[46px]  justify-between
@@ -87,7 +87,7 @@ function Header() {
 
         </div>
           <Navbar/> 
-        <ImageSlider/>  
+         <ImageSlider/> 
         
 
     </div>

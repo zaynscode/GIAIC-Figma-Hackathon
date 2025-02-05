@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function FeaturedCard2() {
   return (
-      <div className='w-[328px] h-[606px]'>
+      <div className='w-[328px] h-[606px] relative left-[20px] md:left-0'>
             {/* Second Image */}
             <div className='w-[348px] h-[300px] relative'>
                 <Image src={'/image/featured-post-2.svg'}

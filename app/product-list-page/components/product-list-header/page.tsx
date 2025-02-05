@@ -5,7 +5,7 @@ import React from 'react'
 
 function ProductListHeader() {
   return (
-            <div className='w-[1343px] h-[58px]  bg-[#23856D] flex justify-center 
+            <div className='w-full h-[58px]  bg-[#23856D] flex justify-center 
                 p-3 md:flex xs:hidden'>
                 <div className='w-[1300px] h-[46px] absolute top-[9px] left-[40px] flex justify-around
                 pl-[100px]'>

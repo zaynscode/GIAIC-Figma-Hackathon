@@ -5,12 +5,13 @@ import ProductsCol3 from './pd-col-3/page'
 
 function ProductCards2() {
   return (
-    <div className='w-[1343px] h-[1778px] absolute'>
-        <div className='w-[1124px] h-[1778px] absolute left-[158px] py-12 flex gap-12 flex-col top-[100px]'>
+    <div className='md:w-[1343px] md:h-[1778px] absolute top-[2700px] md:top-[1180px]'>
+        <div className='md:w-[1124px] md:h-[1778px] absolute md:left-[158px] py-12 flex gap-12 flex-col top-[100px]'>
             <ProductsCol1/>
             <ProductsCol2/>
             <ProductsCol3/>
-        <div className='w-[313px] h-[74px] rounded-[6.73px] border-[1.35px] borderd-[#BDBDBD] relative left-[370px]
+        <div className='w-[313px] h-[74px] rounded-[6.73px] border-[1.35px] borderd-[#BDBDBD] relative
+         md:left-[370px] left-11
         top-[45px] flex'>
             <div className='w-[84px] h-[74px] border-[1px] p-[25px] bg-[#F3F3F3]'>
                 <h2 className='w-[34px] h-6 text-[#BDBDBD] font-montserrat font-bold text-[14px]
@@ -37,7 +38,7 @@ function ProductCards2() {
                 <h1 className='w-[35px] h-6 font-montserrat font-bold text-[14px]
                 leading-6 text-center tracking-[0.2px] text-[#23A6F0]'>Next</h1>
             </div>
-        </div>
+        </div> 
 
         </div>
 

@@ -1,25 +1,27 @@
 import React from 'react'
 import ProductListHeader from './components/product-list-header/page'
-import ProductListNavbar from './components/product-list-header/product-list-navbar/page'
 import ProductContainer from './components/product-container/page'
-
 import FilterRow from './components/filter-row/page'
 import Clients from './components/product-clients/page'
-import ProductFooter from './components/product-footer/page'
 import ProductCards2 from './components/pd-cards/page'
 import ProductShopCard from './components/pd-shop-card/page'
+import Navbar from '../components/header/navbar/page'
+import Footer from '../components/footer/page'
 
 function ProductListPage() {
   return (
-    <div className='md:w-[1340px] md:h-[3038px] xs:w-[428px] relative'>
+    <div className='relative'>
         <ProductListHeader/>
-         <ProductListNavbar/>
+         <Navbar/>
         <ProductContainer/>
-        <ProductShopCard/>
+         <ProductShopCard/>
         <FilterRow/>
-        <Clients/>
-        <ProductFooter/>
-        <ProductCards2/>
+         <Clients/>
+         <div className=' relative md:top-[110px] top-[4080px]'> 
+        <Footer/>
+          </div> 
+        <ProductCards2/> 
+          
     </div>
   )
 }

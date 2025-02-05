@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 function ProductCol1() {
   return (
-    <div className='md:w-[1049px] xs:w-[328px] xs:h-[2550px] md:h-[615px] flex gap-[30px] xs:flex-col md:flex-row '>
+    <div className='md:w-[1049px] xs:w-[328px] xs:h-[2550px] md:h-[615px] flex gap-[30px] xs:flex-col 
+    md:flex-row relative left-[70px] md:left-0'>
       {/* first product */}
       <div className='w-[239px] h-[615px]'>
         <Image src={'/image/product-img-1.svg'}

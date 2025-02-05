@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer2() {
   return (
-    <div className='md:w-[1300px] md:h-[272px] xs:w-[414px] xs:h-[1072px] relative '>
+    <div className='md:w-[1300px] md:h-[272px]  xs:h-[1072px] relative '>
         <div className='md:w-[1050px] md:h-[270px] xs:w-[321px] xs:h-[1071px] absolute md:left-[195px]
          xs:left-[46px] md:py-[50px] xs:py-[70px]'>
             <div className='md:w-[1041px] md:h-[170px] xs:w-[321px] xs:h-[931px] flex gap-[30px] md:flex-row xs:flex-col justify-between'>

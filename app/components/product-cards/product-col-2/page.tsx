@@ -4,7 +4,7 @@ import Image from 'next/image'
 function ProductCol2() {
   return (
     <div className='md:w-[1049px] md:h-[615px] xs:w-[328px] xs:h-[2550px] flex gap-[30px] md:flex-row
-    xs:flex-col '>
+    xs:flex-col relative left-[70px] md:left-0'>
       {/* fifth product */}
       <div className='w-[239px] h-[615px]'>
         <Image src={'/image/product-img-5.svg'}

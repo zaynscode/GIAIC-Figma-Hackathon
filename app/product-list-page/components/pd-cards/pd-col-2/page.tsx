@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function ProductsCol2() {
   return (
-    <div className='w-[1048px] h-[448px] flex gap-[30px]'>
+    <div className='w-[1048px] h-[448px] flex gap-[30px] md:flex xs:hidden'>
       {/* Image 5 */}
       <div className='w-[238px] h-[448px]'>
               <Image src={'/image/pd-5.svg'}
